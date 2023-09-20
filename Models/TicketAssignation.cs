@@ -8,6 +8,6 @@ namespace Bugtracking.Models
         public int Id { get; set; }
         public Ticket Ticket { get; set; }
         public Utilisateur Utilisateur { get; set; }
-        public List<Role> Role { get; set; }
+        public Role Role { get; set; }
     }
 }

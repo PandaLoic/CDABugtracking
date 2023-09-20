@@ -16,6 +16,7 @@ namespace Bugtracking.Models
         public ProduitVersion CorrectedVersion { get; set; }
         public List<TicketAssignation> TicketAssignation { get; set; }
         public Ticket Parent { get; set; }
+
         [NotMapped]
         public Ticket RootParent { get
             {

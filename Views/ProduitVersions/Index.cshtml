@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Bugtracking.Models.ProduitVersion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VersionMajeur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VersionMineur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumeroBuild)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateDebutValidité)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateFinValidit)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VersionMajeur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VersionMineur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroBuild)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateDebutValidité)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateFinValidit)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
