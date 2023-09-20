@@ -1,8 +1,11 @@
-﻿namespace Bugtracking.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Bugtracking.Models
 {
     public class TicketStatut
     {
-        public string ID { get; set; } = Guid.NewGuid().ToString();
+        [Key]
+        public int Id { get; set; }
         public string Name { get; set; }
         public List<TicketStatusWorkflow> NextStatut { get; set; }
     }

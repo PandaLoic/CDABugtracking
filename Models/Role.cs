@@ -1,8 +1,11 @@
-﻿namespace Bugtracking.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Bugtracking.Models
 {
     public class Role
     {
-        public string ID { get; set; } = Guid.NewGuid().ToString();
+        [Key]
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
     }

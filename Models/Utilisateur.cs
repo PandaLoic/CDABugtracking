@@ -4,7 +4,8 @@ namespace Bugtracking.Models
 {
     public class Utilisateur
     {
-        public string ID { get; set; } = Guid.NewGuid().ToString();
+        [Key]
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Prenom { get; set; }
         public EmailAddressAttribute Email { get; set; }

@@ -1,8 +1,11 @@
-﻿namespace Bugtracking.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Bugtracking.Models
 {
     public class ProduitVersion
     {
-        public Guid Id { get; set; }
+        [Key]
+        public int Id { get; set; }
         public int VersionMajeur { get; set; }
         public int VersionMineur { get; set; }
         public int NumeroBuild { get; set; }
