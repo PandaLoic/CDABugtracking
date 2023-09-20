@@ -7,4 +7,4 @@ cd XXXX
 
 puis pour cloner le projet dans son entièreté:
 
-git clone 
+git clone https://github.com/PandaLoic/CDABugtracking.git
