@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X4T2cfTNOKAimHvccxOEtEnCS/veZH+HNFCtQ1WdMrZii/+4Mdiu1wngxNbmnZ7HStu1ja/sQRtgBPAyOcj27g==",
+  "dgSpecHash": "TeWIUiRQEtAyQrnHOFG+A4SfWfBZcJXQoh36YWsDlzoH2+937WQIvYXjjrReyHpi0Tl3fVpHayV5X7LqHc//tQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\panel\\Bugtracking\\Bugtracking.csproj",
+  "projectFilePath": "C:\\Users\\panel\\CDABugtracking\\Bugtracking.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

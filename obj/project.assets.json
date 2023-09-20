@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\panel\\Bugtracking\\Bugtracking.csproj",
+      "projectUniqueName": "C:\\Users\\panel\\CDABugtracking\\Bugtracking.csproj",
       "projectName": "Bugtracking",
-      "projectPath": "C:\\Users\\panel\\Bugtracking\\Bugtracking.csproj",
+      "projectPath": "C:\\Users\\panel\\CDABugtracking\\Bugtracking.csproj",
       "packagesPath": "C:\\Users\\panel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\panel\\Bugtracking\\obj\\",
+      "outputPath": "C:\\Users\\panel\\CDABugtracking\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\panel\\AppData\\Roaming\\NuGet\\NuGet.Config",

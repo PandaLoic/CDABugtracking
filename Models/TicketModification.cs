@@ -7,6 +7,6 @@
         public TicketStatut TicketStatut { get; set; }
         public Utilisateur Utilisateur { get; set; }
         public string Commentaire { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime Date { get; set; }        
     }
 }
